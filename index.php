@@ -11,78 +11,12 @@
 
 <body>
 
-    <div class="container">
-
-        <div class="title">
-            <h1>Hello world! Registro</h1>
-        </div>
-
-        <div class="container-form">
-            <form action="correo.php" method="post">
-                <div class="form">
-                    <div class="columnas">
-                        <label class="etiqueta" for="">Nombre:</label>
-                        <div class="container-campo">
-                            <input name="nombre" class="campo" type="text" placeholder="Nombre..." >
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="apellido">Apellidos:</label>
-                        <div class="container-campo">
-                            <input name="apellido" class="campo" type="text" placeholder="Apellidos..." >
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="correo">Correo Electronico:</label>
-                        <div class="container-campo">
-                            <input name="email" class="campo" type="email" placeholder="Email..." >
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="celular">Celular:</label>
-                        <div class="container-campo">
-                            <input name="celular" class="campo" type="text" placeholder="Celular...">
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="fecha">Fecha de Nacimiento:</label>
-                        <div class="container-campo">
-                            <input name="fecha" class="campo" type="date">
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="sexo">Sexo:</label>
-                        <div class="container-campo">
-                            <select name="sexo" class="campo" name="sexo">
-                                <option value="">Seleccione una opción</option>
-                                <option value="mujer">Mujer</option>
-                                <option value="hombre">Hombre</option>
-                                <option value="otro">Elle</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="columnas">
-                        <label class="etiqueta" for="contraseña">Contraseña:</label>
-                        <div class="container-campo">
-                            <input name="contrasena" class="campo" type="password" placeholder="Contraseña...">
-                        </div>
-                    </div>
-
-                    <div class="container-btn">
-                        <input class="boton" type="submit" value="Enviar">
-                    </div>
-                </div>
-            </form>
-        </div>
-
-    </div>
-
+    <form action="correo.php" method="post">
+        <input name="nombre" class="campo" type="text" placeholder="Nombre..." >
+        <input name="email" class="campo" type="email" placeholder="Email..." >
+        <input name="telefono" class="campo" type="text" placeholder="Telefono...">
+        <textarea name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje..."></textarea>
+    </form>
 
 </body>
 
