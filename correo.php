@@ -8,7 +8,8 @@ $celular = $_POST["celular"];
 $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nCelular: " . $celular;
 
 mail($destino, "Contacto", $contenido);
-echo alert("Mensaje enviado");
-header("Location:index.php");
+
+echo "<script>alert('correo enviado exitosamente')</script>";
+echo "<script>setTimeout(\"location.href='index.php'\",1000)</script>";
 
 ?>
