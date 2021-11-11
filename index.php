@@ -16,6 +16,7 @@
         <input name="email" class="campo" type="email" placeholder="Email..." >
         <input name="telefono" class="campo" type="text" placeholder="Telefono...">
         <textarea name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje..."></textarea>
+        <input type="submit" value="ENVIAR">
     </form>
 
 </body>

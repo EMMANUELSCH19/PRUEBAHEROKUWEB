@@ -1,11 +1,11 @@
 <?php
 
-$destino = "emmanuel_1320114041@uptecamac.edu.mx";
+$destino = "esc_important@outlook.com";
 $nombre = $_POST["nombre"];
 $correo = $_POST["correo"];
-$celular = $_POST["celular"];
-// $mensaje = $_POST["mensaje"];
-$contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nCelular: " . $celular;
+$telefono = $_POST["telefono"];
+$mensaje = $_POST["mensaje"];
+$contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\Telefono: " . $telefono . "\nMensaje: " . $mensaje;
 
 mail($destino, "Contacto", $contenido);
 
